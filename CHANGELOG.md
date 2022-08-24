@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/gwstudent/greetings-ci/compare/v0.6.0...v0.7.0) (2022-08-24)
+
+
+### Features
+
+* add test job ([f806978](https://github.com/gwstudent/greetings-ci/commit/f8069783f275ed70fb767fe915e54d76b7866ebb))
+
+
+
 # [0.6.0](https://github.com/gwstudent/greetings-ci/compare/v0.1.1...v0.6.0) (2022-08-24)
 
 
