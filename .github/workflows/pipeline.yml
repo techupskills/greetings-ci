@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main", "changelog" ]
+    branches: [ "artifact" ]
   pull_request:
-    branches: [ "main", "changelog" ]
+    branches: [ "artifact" ]
 
 permissions:
   contents: write
@@ -38,6 +38,13 @@ jobs:
       with:
         arguments: build
         
+              
     - name: Tag artifact 
       run: mv build/libs/greetings-ci.jar build/libs/greetings-ci-${{ steps.changelog.outputs.version }}.jar
+        
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: greetings-jar
+        path: build/libs
 
