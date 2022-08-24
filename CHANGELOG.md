@@ -1,3 +1,12 @@
+## [0.7.1](https://github.com/gwstudent/greetings-ci/compare/v0.7.0...v0.7.1) (2022-08-24)
+
+
+### Bug Fixes
+
+* add test script ([34d1074](https://github.com/gwstudent/greetings-ci/commit/34d10746140fa829909d472c05cff4134a97f673))
+
+
+
 # [0.7.0](https://github.com/gwstudent/greetings-ci/compare/v0.6.0...v0.7.0) (2022-08-24)
 
 
