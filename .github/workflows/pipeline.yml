@@ -11,11 +11,10 @@ on:
   push:
     branches: [ "main", "changelog" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "changelog" ]
 
 permissions:
   contents: write
-
 
 jobs:
   build:
